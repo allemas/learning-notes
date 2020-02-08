@@ -1,5 +1,12 @@
 # Backlog
 
+## Talks
+* [Dette technique & entropie du logiciel](https://www.youtube.com/watch?v=R8QYVZIVSBE)
+** Complexité : obligatoire / accidentelle
+** idées recu  -> [alan kay](https://www.youtube.com/watch?v=ubaX1Smg6pY)
+
+
+
 ## Articles
 
 * [Positive and Negative Liberty](https://plato.stanford.edu/entries/liberty-positive-negative/#ParPosLib)
