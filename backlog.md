@@ -1,14 +1,6 @@
 # Backlog
 
-## Talks
-* [Dette technique & entropie du logiciel](https://www.youtube.com/watch?v=R8QYVZIVSBE)
-** Complexité : obligatoire / accidentelle
-** idées recu  -> [alan kay](https://www.youtube.com/watch?v=ubaX1Smg6pY)
-
-
-
 ## Articles
-
 * [Positive and Negative Liberty](https://plato.stanford.edu/entries/liberty-positive-negative/#ParPosLib)
 * [Can Do vs. Can't Do Cultures](https://a16z.com/2014/02/06/6147/)
 

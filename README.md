@@ -9,7 +9,7 @@ Taking notes on books I read, talks I watch and articles I study, recalling them
 * [Designing Data-Intensive Applications](books/designing-data-intensive-applications.md) by **Martin Kleppmann**, 2015.
 * [Distributed Systems Observability](books/distributed-systems-observability.md) by **Cindy Sridharan**, 2018.
 * [Effective Java](books/effective-java.md) by **Joshua Bloch**, 2001.
-* [Elements of Programming Style](books/elements-of-programming-style.md) by **Brian W. Kernighan** and **P.J. Plauger**, 1988.  
+* [Elements of Programming Style](books/elements-of-programming-style.md) by **Brian W. Kernighan** and **P.J. Plauger**, 1988.
 * [How to Win Friends and Influence People](books/how-to-win-friends-and-influence-people.md) by **Dale Carnegie**, 1936.
 * [Kanban: Successful Evolutionary Change for Your Technology Business](books/kanban.md) by **David J. Anderson**, 2010.
 * [Peopleware: Productive Projects and Teams](books/peopleware.md) by **Tom DeMarco** and **Timothy R. Lister**, 1999.
@@ -29,6 +29,7 @@ If you are interested in the books I read, [follow me in Goodreads](https://www.
 
 ### Talks
 
+* FR - [Dette Tech Entropie du Logiciel](talks/dette-tech-entropie-du-logiciel.md) by **Arnaud Lemaire**.
 * [8 Lines of Code](talks/8-lines-of-code.md) by **Greg Young**, 2011.
 * [Am I senior yet?](talks/am-i-senior-yet.md) by **Katlyn Parvin**, 2016.
 * [Clean Architecture and Design](talks/clean-architecture-and-design.md) by **Robert C. Martin**, 2014.
@@ -55,6 +56,15 @@ If you are interested in the books I read, [follow me in Goodreads](https://www.
 * [How Measurable is Success?](papers/how-measurable-is-success.md) by **Chester H. Bartoo**, 1939.
 * [Out of the Tar Pit](papers/out-of-the-tar-pit.md) by **Ben Moseley** and **Peter Marks**, 2006.
 * [Reflections on Trusting Trust](papers/reflections-on-trusting-trust.md) by **Ken Thomson**, 1984.
+
+### Experiments
+My tech experiments notes.
+
+* Docker
+  * [Docker commands](experiments/docker-cmd.md)
+  * [Docker Manage and cleaning env](experiments/docker-manage-and-clean.md)
+  * [Dockerfile basics](experiments/dockerfile-build.md)
+  * [Docker compose](experiments/docker-compose.md)
 
 ## Taking notes
 
