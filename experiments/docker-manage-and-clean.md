@@ -17,6 +17,7 @@ remove : `docker images purge`
 - List `docker ps -a`
 - Remove `docker rm <ID_or_name>`
 - Auto remove after run : `docker run --rm image_name`
+- remove all : `docker conainer prune`
 
 ### Remove containers using more than one filter
 - List exited containers `docker ps -a -f status=exited`
