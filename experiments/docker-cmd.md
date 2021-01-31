@@ -38,6 +38,7 @@ When you create a new container, you can specify one or more --network flags. Th
 
 ## inspect network
 `docker network inspect`
+
 ```
 
     {
@@ -79,6 +80,30 @@ When you create a new container, you can specify one or more --network flags. Th
 ]
 ```
 
+## Networking container
+Connected to bridge manualy
+```
+root@1f87bccac67c:/# cat /etc/hosts
+127.0.0.1	localhost
+::1	localhost ip6-localhost ip6-loopback
+fe00::0	ip6-localnet
+ff00::0	ip6-mcastprefix
+ff02::1	ip6-allnodes
+ff02::2	ip6-allrouters
+172.17.0.2	1f87bccac67c
+172.18.0.2	1f87bccac67c
+```
+
+Disconnected to bridge manualy
+```
+root@1f87bccac67c:/# cat /etc/hosts
+127.0.0.1	localhost
+::1	localhost ip6-localhost ip6-loopback
+fe00::0	ip6-localnet
+ff00::0	ip6-mcastprefix
+ff02::1	ip6-allnodes
+ff02::2	ip6-allrouters
+```
 
 - [basic networking](https://runnable.com/docker/basic-docker-networking)
 
@@ -86,3 +111,13 @@ When you create a new container, you can specify one or more --network flags. Th
 
 ### Links
 - [how-to-build-a-node-js-application-with-docker-quickstart](https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker-quickstart)
+
+
+# Docker Volumes
+
+create : `docker volume create <name>`
+list : `docker volume ls `
+remove all unused : `docker volume prune`
+
+## Docker mount volume to container
+docker run --name snginx -p 8080:80 --mount source=my-vol,target=/var/www/html s/nginx
