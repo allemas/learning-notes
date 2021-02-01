@@ -13,6 +13,36 @@ Au lancement de l'application charger un fichier de configuration (via GET) et p
 ## La cible
 être en mesure de déployer un ensemble de fichiers de configuration facilement au déploiement de l'application.
 
+Roadmap 
+- Créer un volume configmap dans k8s 
+- Ajouter le volume a disposition du pod
+
+Creation de la configmap 
+```
+# -- configmap --
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: xx-xxx-xx-configmap
+data:
+  features.json: |{
+      param: "val" 
+  }
+```
+
+utilisation de la configmap
+
+
+  extraVolumes:
+    - name: volume-name
+      configMap:
+        name: xx-xxx-xx-configmap
+  extraVolumeMounts:
+    - name:  volume-name
+      mountPath: /<path>
+      subPath: features.json
+      readOnly: true
+
 
 
 
